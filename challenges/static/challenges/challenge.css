@@ -1,0 +1,37 @@
+ul{
+    list-style: none;
+    border: 1px solid lightsteelblue;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+    margin: 5rem auto;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    background-color: rgb(245, 242, 242);
+}
+
+li{
+    width: 5rem;
+    height: 1.65rem;
+    border: 0.5px solid burlywood;
+    border-radius: 2rem;
+    margin-right: 1.25rem;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+
+li:hover, li a:hover, li a:active{
+    background-color:darkseagreen;
+    color:white
+}

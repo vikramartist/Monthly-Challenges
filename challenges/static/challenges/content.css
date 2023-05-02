@@ -1,0 +1,22 @@
+h1, p{
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(219, 223, 221, 0.723);
+}
+
+div{
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
+    border-radius: 5rem;
+    margin: 0 auto;
+    margin-top: 4rem;
+    box-shadow: 3px 5px 3px 3px rgba(145,178,254,0.45);
+}
+
+p{
+    font-size: large;
+}
